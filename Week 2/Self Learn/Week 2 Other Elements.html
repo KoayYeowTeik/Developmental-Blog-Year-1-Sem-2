@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        
+        table,td,th{
+            border:1px solid black;
+        }
+    </style>
+    <meta charset="UTF-8">  
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="background-image:linear-gradient(to bottom right,red,yellow)"><!--cool-->
+
+
+    <h1> The Article Element</h1>
+    <article>
+        <h1> Ninjago</h1>
+        <p> Ninjago is a Lego branded Television Series that is about the Masters Of Spinjitzu</p>
+    </article>
+    <article>
+        <h2> Minecraft</h2>
+        <p> Minecraft is a sandbox game made of block</p>
+    </article>
+
+
+    <h1> The Section Element</h1>
+    <section>
+        <p> The section elements creates a section for something</p>
+    </section> 
+
+
+    <h1> The Aside Element</h1>
+    <p> This is text</p>
+    <aside>
+        <p> The aside function splits up text from each other.</p>
+        <p>I think</p>
+    </aside> <!-- writes texts on neaby areas w empty spaces?-->
+
+    <h1> The Table Element</h1>
+    <table><!--table will have no drawing unless style is used-->
+        <caption> Table Captions</caption>
+        <colgroup>
+            <col span="1" style="background-color:red"> <!-- colgroup groups up a column to perform a function (span specified)-->
+        </colgroup>
+        <tr>  <!--tr is table row-->
+            <th>Names</th> <!--th is table header-->
+            <th>Idk </th>
+        </tr>
+        <tr>
+            <td>Kai</td> <!--td is table data-->
+            <td>Master of Fire</td>
+        </tr> 
+        <tr>
+            <td>Jay</td> 
+            <td> Master of Lighting</td>
+        </tr> 
+    </table><!-- other elements like <thead><tbody><foot>-->
+
+        <h1> The Details Element</h1>
+        <details>
+            <summary> Kai</summary>
+            <p> The Master of Firaaaaaaaaaaaaaaaa</p> <!--creates a summary and info that will pop out when clicked on-->
+        </details> <!-- can use style to customise-->
+
+    <h1> The Figure Element</h1>
+    <figure>
+        <img src=" https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRfiYFCXaX8T_ftqB_Oq5qcYoxUbnDw4qrFTRZ5d-gLot1o1_WK" style=" width:100%">
+        <figcaption> Fig 1. Ninjago Poster Pilot</figcaption> <!-- creates a caption for the image-->
+    </figure>
+
+    
+    <h1> The Form Element</h1> <!-- Collect user input (finally)-->
+    <p> This input type asks the user for an input ( depending on the input type )</p>
+    <h2> Inputting Text </h2>
+    <label for="fname">First name:</label><br> <!--html input do not use \n need to <br>-->
+    <input type = "text" id="fname" name = "fname" value="Yeow Teik"> <br> <!--id to match labelling of input/assign var,give preinputted values-->
+
+    <h2> Inputting Circular Button Choices</h2>
+    <input type = "radio" id = "html" name = "fav language" value = "HTML"> <!-- To Annotate an input for a input type NEED TO USE LABEL(2 liner code)-->
+    <label for = "html"> HTML </label><br>
+
+    <h2> Inputting Options w Checkboxes</h2>
+    <input type = "checkbox" id = "css" name = "fav language" value = "CSS">
+    <label for = "css" > CSS</label><br>
+
+    <form action = "https://www.w3schools.com/html/html_forms.asp" > <!-- What does target/autocomplete/method do? target opens dir in a new tab-->
+    <h2> Submitting Something </h2>
+    <input type = "submit" value = "SUBMIT">
+    </form>
+
+
+    <h2> Just A Plain Button</h2>
+    <input type = "button" value = "something">
+
+
+    <h1> The Header Element</h1>
+    <header>
+        <p> Random BS here</p>
+        <p> creates a section on the top of the page to do shit</p>
+    </header>
+
+    <h2> The Mark Tag</h2>
+    <p> Shits about to go <mark>down</mark></p> <!--highlights certain text to be styled-->
+
+    <!-- The main element just focuses on shit don't need to show-->
+
+</body>
+</html>
